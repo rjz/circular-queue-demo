@@ -1,0 +1,20 @@
+{
+  "name": "circular-queue-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "browserify-css": "^0.6.1",
+    "circular-queue": "0.0.2",
+    "inherits": "^2.0.1",
+    "jshint": "^2.8.0",
+    "uglifyjs": "^2.4.10"
+  },
+  "scripts": {
+    "test": "jshint src/*.js",
+    "build": "browserify -t browserify-css -e src/main.js | uglifyjs > circular-queue-demo.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

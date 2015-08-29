@@ -1,0 +1,8 @@
+{
+  "browser": true,
+  "node": true,
+  "strict": true,
+  "globals": {
+    "d3": true
+  }
+}

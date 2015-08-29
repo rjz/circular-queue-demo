@@ -1,0 +1,60 @@
+.cq-demo {
+  border: none;
+  position: relative;
+  text-align:center;
+}
+
+.cq-demo figcaption {
+  font-size: 1em;
+  margin: 1em;
+}
+
+.cq-demo svg {
+  font: bold 14px sans-serif;
+}
+
+.cq-demo pre {
+  border: none;
+  position: absolute;
+  top: 0;
+}
+
+.cq-demo nav {
+  display:inline-block;
+  text-align:left;
+}
+
+.cq-demo ul  {
+  clear: both;
+}
+
+.cq-demo ul li {
+  background-color: #231f20;
+  border-radius: 40px;
+  color: #fff;
+  list-style:none;
+  float: left;
+  margin: 3px;
+  border: 1px solid #231f20;
+  box-shadow: inset 0 0 0 2px #fff;
+  padding: 1em 0;
+  width: 3em;
+  text-align:center;
+  vertical-align: middle;
+}
+
+.cq-demo ul li:empty {
+  background: transparent;
+  height: 1em;
+}
+
+@media screen and (max-width: 640px) {
+  .cq-demo {
+    height: auto;
+    max-height: none;
+  }
+  .cq-demo nav {
+    position: relative;
+    clear: both;
+  }
+}
